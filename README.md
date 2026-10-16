@@ -8,7 +8,7 @@
 Sistema desktop para cadastro, consulta e relatório de cursos, desenvolvido
 em C# (WinForms) com SQL Server.
 
-🖼️ ![Demonstração](docs/images/demo.gif)
+![Demonstração](docs/images/demo.gif)
 
 ## 📚 Sobre o projeto
 Projeto acadêmico desenvolvido em C#, com o objetivo de aprender a conexão de um projeto real com o banco de dados,
@@ -21,7 +21,7 @@ além de ter pensado também em resolução de problemas, neste caso, procurar d
 - Relatório impresso/PDF com ReportViewer (RDLC)
 - Interface MDI com menu, barra de ferramentas e barra de status
 
-## 📸 Screenshots
+## 📸 Telas
 | Menu principal | Cadastro |
 |---|---|
 | ![](docs/images/menu.jpeg) | ![](docs/images/cadastro.jpeg) |
@@ -33,13 +33,13 @@ além de ter pensado também em resolução de problemas, neste caso, procurar d
 - SQL Server (Express) · ADO.NET com DataSet tipado
 - Microsoft ReportViewer (RDLC)
 
-## 💻 Como executar
+## ▶️ Como executar
 ### Requisitos
 - Windows 10/11
 - Visual Studio 2022 (carga de trabalho ".NET desktop")
 - SQL Server Express ou LocalDB
 
-### 👣 Passos
+### Passos
 1. Clone o repositório:
 ```bash
    git clone https://github.com/mths09/gestao-cursos-winforms.git
@@ -48,7 +48,7 @@ além de ter pensado também em resolução de problemas, neste caso, procurar d
 3. Ajuste a connection string em `Projeto_FormularioCurso/App.config`.
 4. Abra `sln_FormularioCurso.sln`, restaure os pacotes NuGet e execute (F5).
 
-## 🖥️ Banco de dados
+## 📦 Banco de dados
 Tabela `Curso`:
 | Coluna | Tipo | Observação |
 |---|---|---|
@@ -60,7 +60,7 @@ Tabela `Curso`:
 | Carga_horaria | (confirmar tipo) | |
 | data_inicio | datetime | |
 
-## 🧱 Estrutura do projeto
+## 🗂️ Estrutura do projeto
 ```
 Projeto_FormularioCurso/
 ├─ Formulários/   telas (menu MDI, cadastro, consulta, relatório)
@@ -76,16 +76,16 @@ Projeto_FormularioCurso/
 - [ ] Testes unitários da lógica de filtro
 - [ ] Release com executável
 
-## O que aprendi
+## 📌 Aprendizados
 - Binding de dados
 - Como criar relatórios RDLC
 - Como aplicar filtros em DataView
 - Consultas SQL
 - Comandos SQL
+- Utilização de pacotes NuGet
 
+## 👤Autor
+**Matheus Ferenci Miranda leitão** · [LinkedIn]((https://www.linkedin.com/in/matheus-ferenci-miranda-leit%C3%A3o-a611b9374/)) · [GitHub]((https://github.com/mths09))
 
-## Autor
-**Seu Nome** · [LinkedIn]((https://www.linkedin.com/in/matheus-ferenci-miranda-leit%C3%A3o-a611b9374/)) · [GitHub]((https://github.com/mths09))
-
-## Licença
+## 📄 Licença
 Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
